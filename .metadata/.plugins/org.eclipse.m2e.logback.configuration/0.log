@@ -1,1 +1,4 @@
 2018-08-24 14:01:54,444 [Worker-5: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-08-24 14:34:49,375 [Worker-25: Auto share git projects] WARN  org.eclipse.jgit.util.FS - null
+2018-08-24 17:29:04,327 [Worker-100: Debug Source Lookup] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.1.1/junit-platform-commons-1.1.1-sources.jar
+2018-08-24 17:29:04,407 [Worker-100: Debug Source Lookup] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/junit/platform/junit-platform-commons/1.1.1/junit-platform-commons-1.1.1-sources.jar
