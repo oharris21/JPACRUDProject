@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+body {
+background-image: url("http://7-themes.com/6909171-black-snake-background-wallpaper.html"); 
+} 
+
+h1 {
+	text-align: center; 
+	font-size: 50px; 
+}
+
+.links {
+	text-align: center;
+	font-size: 30px; 
+	position:relative; top:40px;
+	text-decoration: none;
+	
+}
+
+ul {
+	list-style: none; 
+}
+
+.createTable {
+	left: 50%; 
+}
+
+.editTable {
+	
+}
+
+.deleteTable {
+	
+}

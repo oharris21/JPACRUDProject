@@ -8,6 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
+import javax.validation.constraints.Size;
 
 @Entity 
 public class Snake {
@@ -15,21 +16,24 @@ public class Snake {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	protected int id;
 	
+	@Size(min=1, max=80)
 	protected String name; 
 	
-	// comma separated in DB
+	@Size(min=1, max=80)
 	protected String colors; 
 	
+	@Min(0)
 	@Column(name="length")
 	protected int lengthInInches; 
 	
+	@Min(0)
 	@Column(name="weight")
 	protected int weightInLbs; 
 	
-	// comma separated in DB
+	@Size(min=2, max=100)
 	protected String habitat; 
 	
-	// comma separated in DB
+	@Size(min=2, max=100)
 	protected String region; 
 	
 	@Min(0)
@@ -37,7 +41,7 @@ public class Snake {
 	@Column(name="how_venemous")
 	protected int howVenemous; 
 	
-	// long String
+	@Size(min=2, max=150)
 	protected String characteristics; 
 	
 	// end of fields 
