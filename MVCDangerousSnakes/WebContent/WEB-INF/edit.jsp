@@ -2,15 +2,16 @@
 	pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
-<html>
+<html class="edit-bg">
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
+	<h2>Edit A Snake</h2>
 
-		<form action="Edit.do" method="POST">
-			<input type="hidden" name="id" value="${snake.id}" />
+	<form action="Edit.do" method="POST">
+		<input type="hidden" name="id" value="${snake.id}" />
 		<table>
 			<tr>
 				<td><label for="name">Name: </label></td>
@@ -49,8 +50,8 @@
 					value="${snake.characteristics}" /></td>
 			</tr>
 		</table>
-			<input type="submit" value="Done">
-		</form>
+		<input type="submit" value="Done">
+	</form>
 	</form>
 </body>
 </html>

@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.edit-bg {
+	background: url("https://wallup.net/wp-content/uploads/2016/10/12/17787-snake-red-black-Boa_constrictor.jpg") no-repeat center center fixed;
+	webkit-background-size: cover;
+	moz-background-size: cover;
+	o-background-size: cover;
+	background-size: cover;
+}
+
+table {
+	color: white; 
+	line-height: 2;
+	font-size: 20px; 
+	margin-left: 5%; 
+}
+
+#submit {
+	width: 100px; 
+	height: 50px; 
+}
+
+h2 {
+	top: 5px; 
+	color: white;
+	font-size: 40px; 
+	text-align: center; 
+}

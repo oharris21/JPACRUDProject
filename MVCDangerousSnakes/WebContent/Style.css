@@ -1,34 +1,38 @@
 @charset "UTF-8";
 
-body {
-background-image: url("http://7-themes.com/6909171-black-snake-background-wallpaper.html"); 
-} 
+html {
+}
+
+.home-bg {
+	background: url("https://i.pinimg.com/originals/89/aa/16/89aa16d6785dc8e306580ff0ba4ccdf3.jpg") no-repeat center center fixed;
+	webkit-background-size: cover;
+	moz-background-size: cover;
+	o-background-size: cover;
+	background-size: cover;
+}
 
 h1 {
-	text-align: center; 
-	font-size: 50px; 
-}
-
-.links {
+	color: 	#F5F5F5;
 	text-align: center;
-	font-size: 30px; 
-	position:relative; top:40px;
+	font-size: 50px;
+	position: relative;
+	top: 10px;
+}
+
+a {
 	text-decoration: none;
-	
+	color: white; 
 }
 
-ul {
-	list-style: none; 
+a:hover {
+	color: green;
 }
 
-.createTable {
-	left: 50%; 
-}
-
-.editTable {
-	
-}
-
-.deleteTable {
-	
+p {
+	margin-left: 7%; 
+	font-size: 40px; 
+	line-height: 1.7;
+	background-color: black; 
+	width: 320px;
+	opacity: 0.7;  
 }
