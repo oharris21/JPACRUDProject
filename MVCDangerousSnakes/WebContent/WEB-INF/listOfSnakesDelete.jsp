@@ -2,13 +2,22 @@
 	pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
-<html>
+<html class="create-bg">
 <head>
+<link rel="stylesheet" type="text/css" href="DeleteSnake.css">
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
-	<%@ include file="nav.jsp"%>
+<div class="topnav">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="create.html">Create a Snake</a></li>
+			<li><a href="EditList.do">Edit a Snake</a></li>
+			<li><a href="DeleteList.do">Delete a Snake</a></li>
+		</ul>
+	</div>
+	<h2>Delete A Snake</h2>
 	<div class="deleteTable">
 		<table>
 			<tr>
@@ -22,7 +31,7 @@
 					<td>
 						<form action="Delete.do" method="POST">
 							<input type="hidden" name="id" value="${s.id}"> <input
-								type="submit" value="Delete">
+								type="submit" id="submit" value="Delete">
 						</form>
 					</td>
 				</tr>

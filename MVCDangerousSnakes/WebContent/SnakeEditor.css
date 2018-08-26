@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
-.edit-bg {
-	background: url("https://wallup.net/wp-content/uploads/2016/10/12/17787-snake-red-black-Boa_constrictor.jpg") no-repeat center center fixed;
+.create-bg {
+	background: url("https://media.istockphoto.com/photos/snake-skin-background-picture-id659198938?k=6&m=659198938&s=612x612&w=0&h=1LGRYs73QR1P9HFFnmkiTvgpnGwu3W6h0QCjvv5Y7dM=") no-repeat center center fixed;
 	webkit-background-size: cover;
 	moz-background-size: cover;
 	o-background-size: cover;
@@ -40,17 +40,32 @@ h2 {
 	text-align: center; 
 }
 
-table {
+#image {
+   content:url(https://www.elitereaders.com/wp-content/uploads/2017/01/most-beautiful-snakes-featured.jpg);
+   width: 400px;
+   height: 300px; 
+   float: right;
+   margin-right: 5%; 
+}​ 
+
+.editTable {
 	color: white; 
 	line-height: 2;
 	font-size: 20px; 
-	margin-left: 5%; 
-	background-color: black; 
-	opacity: 0.7; 
-	width: 80%; 
+	margin-left: 10%;
+	float: left;
+	  
+}
+
+table, td, tr {
+	font-size: 30px; 
+	color: white; 
+	margin-left: 10%; 
 }
 
 #submit {
+	margin-top: 3%; 
+	margin-left: 27%; 
 	width: 100px; 
-	height: 50px; 
-}
+	height: 100px; 
+} 

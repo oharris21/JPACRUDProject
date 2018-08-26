@@ -9,7 +9,14 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<%@ include file="nav.jsp"%>
+	<div class="topnav">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="create.html">Create a Snake</a></li>
+			<li><a href="EditList.do">Edit a Snake</a></li>
+			<li><a href="DeleteList.do">Delete a Snake</a></li>
+		</ul>
+	</div>
 	<h2>Edit A Snake</h2>
 	<table>
 		<tr>
